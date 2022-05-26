@@ -4,7 +4,7 @@ super + Return
 	
 # Launch Rofi 
 super + d
-	rofi -show combi 
+	rofi -show combi -theme gruvbox-dark 
 	
 # Reload
 super + Escape
@@ -32,3 +32,7 @@ ctrl + shift + {KP_8, KP_2}
 
 ctrl + shift + {KP_5,KP_4,KP_6}
 	playerctl {play-pause,previous,next}
+
+# Flameshot
+Print
+	flameshot gui
